@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.29)
+project(cpp_app)
+
+file(GLOB SOURCES *.cpp)
+add_executable(cpp_app ${SOURCES})
+set_target_properties(cpp_app PROPERTIES CXX_STANDARD 26)
